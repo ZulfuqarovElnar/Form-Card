@@ -1,8 +1,11 @@
+import Nav from "./components/nav";
+
+import '../src/assets/css/reset.css'
 
 function App() {
   return (
     <div className="App">
-      App
+      <Nav /> 
     </div>
   );
 }
