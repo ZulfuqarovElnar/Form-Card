@@ -1,0 +1,12 @@
+.appbar{
+    box-shadow: none !important;
+}
+
+.toolbar {
+    padding: 20px 30px;
+    background-color: #fff;
+}
+.typography{
+    color: #ff4500;
+    font-size: 22px;
+}
