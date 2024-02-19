@@ -1,0 +1,22 @@
+.operation{
+    display: flex;
+    gap: 10px;
+    background-color: #f1f1f1;
+    padding: 10px ;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px gray;
+}
+.operation button {
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 12px;  
+  }
+.operation button:hover {
+    background-color: #0056b3;
+  }
