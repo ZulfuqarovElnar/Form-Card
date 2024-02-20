@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import '../css/selectDropdown.css';
 
 function CustomSelect() {
-  const [selectedOption, setSelectedOption] = useState('option1'); 
+  const [selectedOption, setSelectedOption] = useState(''); 
   const inputRef = useRef(null);
   const [focused, setFocused] = useState(false);
 

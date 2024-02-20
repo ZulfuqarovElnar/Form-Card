@@ -10,7 +10,7 @@ import FormTable from '../../../components/form-add/form-table';
 import FormOperation from '../../../components/form-add/form-operation';
 export default function FormAddPage() {
   return (
-    <Box>
+    <Box className="box-container">
         <Typography className='typography-header' variant="h5">
             <LooksOneIcon className='looks-one-icon'/>
             Məhsul Silinmə (Əlavə et/ Dəyiş)
