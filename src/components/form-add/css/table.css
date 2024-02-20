@@ -43,12 +43,12 @@
   }
 
 .Table .form-textfield, .Table .custom-textfield {
-    margin-top: -10px !important;
+    margin-top: 0px !important;
 }
 
 .Table .MuiSelect-select, .Table .textfield {
     width: 30px;
 }
 .MuiOutlinedInput-input {
-    padding: 10px  12px; 
+    padding: 10px  12px !important; 
 }

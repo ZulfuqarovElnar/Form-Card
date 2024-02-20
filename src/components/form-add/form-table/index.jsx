@@ -86,8 +86,6 @@ export default function FormTable() {
                             />
                         </FormControl>
                     </td>
-
-
                     <td>
                         <Button size="sm" >
                             Əlavə et
