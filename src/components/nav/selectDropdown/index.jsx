@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { Select, MenuItem, Input, FormControl } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 import '../css/selectDropdown.css';
 
@@ -13,9 +14,17 @@ function CustomSelect() {
       inputRef.current.focus();
     }
   };
+  const navigate = useNavigate();
 
   const handleChange = (event) => {
-    setSelectedOption(event.target.value);
+    const selectedValue = event.target.value;
+    setSelectedOption(selectedValue);
+    // Navigate based on selected value
+    if (selectedValue === 'option1') {
+      navigate('/form/add');
+    } else if (selectedValue === 'option2') {
+      navigate('/form/list');
+    }
   };
 
   const handleFocus = () => {
@@ -43,8 +52,8 @@ function CustomSelect() {
             onBlur={handleBlur}
             className={focused ? 'input-focused' : 'input'}
         />
-        <MenuItem value="option1">Məhsul Silinmə (Əlavə et/ Dəyiş)</MenuItem>
-        <MenuItem value="option2">Məhsul Silinmə Siyahısı</MenuItem>
+          <MenuItem value="option1">Məhsul Silinmə (Əlavə et/ Dəyiş)</MenuItem>
+          <MenuItem value="option2">Məhsul Silinmə Siyahısı</MenuItem>
       </Select>
       
     </FormControl>

@@ -43,7 +43,7 @@
   }
 
 .Table .form-textfield, .Table .custom-textfield {
-    margin-top: -10px !important;
+    margin-top: 0px !important;
 }
 
 .Table .MuiSelect-select, .Table .textfield {

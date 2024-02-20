@@ -1,15 +1,18 @@
-import Nav from "./components/nav";
+import React from 'react';
+import { RouterProvider } from 'react-router-dom';
+import { AppContextProvider } from './context';
+import Routes from './routes';
 
-import '../src/assets/css/reset.css'
-import Table from "./components/form-add";
 
 function App() {
   return (
-    <div className="App">
-      <Nav /> 
-      <Table />
-    </div>
+
+      <AppContextProvider>
+        <RouterProvider router={Routes} />
+      </AppContextProvider>
+
   );
 }
 
 export default App;
+
