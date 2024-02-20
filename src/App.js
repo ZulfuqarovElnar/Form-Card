@@ -1,7 +1,7 @@
 import Nav from "./components/nav";
 
 import '../src/assets/css/reset.css'
-import Table from "./components/form";
+import Table from "./components/form-add";
 
 function App() {
   return (
