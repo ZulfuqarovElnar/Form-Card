@@ -5,7 +5,7 @@ import LooksOneIcon from '@mui/icons-material/LooksOne';
 
 export default function FormListPage() {
   return (
-    <Box>
+    <Box className="box-container">
         <Typography className='typography-header' variant="h5">
             <LooksOneIcon className='looks-one-icon'/>
             Məhsul Silinmə Siyahısı

@@ -7,7 +7,7 @@ import { Outlet } from 'react-router-dom';
 export default function Form() {
 
   return (
-    <Box className="box-container">
+    <Box >
       <Outlet />
     </Box>
   );
